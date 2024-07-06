@@ -1,0 +1,57 @@
+.container-bg-t {
+    position: relative;
+    background: linear-gradient(135deg, blue, rgb(213, 1, 199));
+    max-width: 100%;
+    width: auto !important;
+    height: 20em;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.card-testimoni {
+    width: 100%;
+    max-width: 30em;
+    height: auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Beri jarak antara kartu */
+}
+
+.header {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.header .banner {
+    width: 10em;
+    height: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 20px;
+    background-color: #2CB0FA;
+}
+
+.header .kutip {
+    position: absolute;
+    right: -40px;
+    top: -50px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .bintang {
+    margin-left: auto;
+}

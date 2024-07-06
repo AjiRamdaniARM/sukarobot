@@ -1,0 +1,17 @@
+a.button.button-secondary.alignright {
+    color: #fff !important;
+    background: #006BA1  !important;
+    font-size: 14px;
+    margin: -5px !important;
+    border-radius: 0 !important;
+    border: none !important;
+    box-shadow: 2px 2px 0px 0px #fff !important;
+    font-size: 14px;
+}
+#accordion-section-services_landing_page_upgrade_pro_link h3.accordion-section-title, #accordion-section-services_landing_page_get_started_link h3.accordion-section-title {
+    background: #222426 !important;
+    color: #fff !important;
+    font-size: 12px;
+    padding: 15px 15px 15px 10px;
+}
+
