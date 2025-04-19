@@ -132,9 +132,9 @@
                 <div class="col-lg-1 col-md-6 footer-contact">
                 </div>
                 <div class="col-lg-4 col-md-6 footer-contact d-flex flex-column flex-col">
-                    <img src="assets/img/Untitled-2.png" style="height: auto; width: auto;" alt="logo sukarobot academy">
+                    <img src="assets/img/Untitled-2.png" style="width: 25em" alt="logo sukarobot academy">
                     <br>
-                    <h4>Pelatihan Robotik,
+                    <h4 style="font-size: 1.5em;">Pelatihan Robotik,
                         Menggali potensi masa depan</h4>
                 </div>
                 <div class="col-lg-4 col-md-6 footer-links">

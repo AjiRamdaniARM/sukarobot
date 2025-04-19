@@ -73,6 +73,10 @@ class HomeController extends Controller
     {
         return view('user.component.contact');
     }
+
+    public function event() {
+        return view('user.component.event');
+    }
     public function logout(){
         Auth::logout();
         return redirect('');

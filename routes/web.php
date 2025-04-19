@@ -51,6 +51,7 @@ Route::group(['middleware' => 'web'], function () {
     Route::get('/home/galeri', [HomeController::class, 'galeri']);
     Route::get('/home/galeri-detail/{id}', [HomeController::class, 'galeriDetail']);
     Route::get('/home/contact', [HomeController::class, 'contact']);
+    Route::get('/home/event', [HomeController::class, 'event'])->name('event.page');
     //Pesan
     Route::post('/contact/send', [PesanController::class, 'post'])->middleware('auth');
     Route::get('/home/pelatihan-detail/{judul}', [PelatihanController::class, 'detail'])->middleware('auth');

@@ -101,8 +101,25 @@
             <li><a class="{{ Request::is('/') ? 'active' : '' }}" href="{{url('/')}}">Home</a></li>
             <li><a class="{{ Request::is('home/about') ? 'active' : '' }}" href="{{url('/home/about')}}">Tentang Kami</a></li>
             <li><a class="{{ Request::is('home/pelatihan') ? 'active' : '' }}" href="{{url('/home/pelatihan')}}">Pelatihan</a></li>
+            <li><a class="{{ Request::is('home/pelatihan') ? 'active' : '' }}" href="{{url('/home/pelatihan')}}">Kursus</a></li>
             <li><a class="{{ Request::is('home/instruktur') ? 'active' : '' }}" href="{{url('/home/instruktur')}}">Instruktur</a></li>
             <li><a class="{{ Request::is('home/galeri') ? 'active' : '' }}" href="{{url('/home/galeri')}}">Galeri</a></li>
+            <li class="nav-item dropdown">
+                <a 
+                    class="nav-link dropdown-toggle {{ Request::is('home/event') ? 'active' : '' }}" 
+                    href="#" 
+                    id="eventDropdown" 
+                    role="button" 
+                    data-bs-toggle="dropdown" 
+                    aria-expanded="false">
+                    Event
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="eventDropdown">
+                    <li><a class="dropdown-item" href="{{ url('/home/event/conference') }}">SRC ( Sukarobot Robotik Competition )</a></li>
+                    <li><a class="dropdown-item" href="{{ url('/home/event/workshop') }}">BRC ( Botani Robotik Competition )</a></li>
+                </ul>
+            </li>
+            
             <li><a class="{{ Request::is('home/contact') ? 'active' : '' }}" href="{{url('/home/contact')}}">Hubungi Kami</a></li>
             @if(!auth()->check())
                 <button onclick="window.location.href='{{ route('login') }}'"  class="get-started-btn">Masuk</button>
